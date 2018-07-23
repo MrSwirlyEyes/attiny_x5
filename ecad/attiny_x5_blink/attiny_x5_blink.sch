@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -168,68 +168,6 @@
 <libraries>
 <library name="PiB_ic_microcontrollers">
 <packages>
-<package name="SO-8" urn="urn:adsk.eagle:footprint:3645108/1">
-<smd name="1" x="-3.7084" y="1.905" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="2" x="-3.7084" y="0.635" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="3" x="-3.7084" y="-0.635" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="4" x="-3.7084" y="-1.905" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="5" x="3.7084" y="-1.905" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="6" x="3.7084" y="-0.635" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="7" x="3.7084" y="0.635" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="8" x="3.7084" y="1.905" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<wire x1="2.6924" y1="-2.667" x2="2.6924" y2="2.667" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="-2.667" x2="2.6924" y2="-2.667" width="0.1524" layer="21"/>
-<wire x1="2.6924" y1="2.667" x2="0.6858" y2="2.667" width="0.1524" layer="21"/>
-<wire x1="-0.6858" y1="2.667" x2="-2.6924" y2="2.667" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="2.667" x2="-2.6924" y2="-2.667" width="0.1524" layer="21"/>
-<wire x1="0.6858" y1="2.667" x2="-0.6858" y2="2.667" width="0.1524" layer="21" curve="-180"/>
-<wire x1="0.6858" y1="2.667" x2="-0.6858" y2="2.667" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.699" y1="-2.794" x2="4.699" y2="-2.794" width="0.127" layer="39"/>
-<wire x1="4.699" y1="-2.794" x2="4.699" y2="2.794" width="0.127" layer="39"/>
-<wire x1="4.699" y1="2.794" x2="-4.699" y2="2.794" width="0.127" layer="39"/>
-<wire x1="-4.699" y1="2.794" x2="-4.699" y2="-2.794" width="0.127" layer="39"/>
-<rectangle x1="2.6924" y1="1.6764" x2="4.1402" y2="2.1336" layer="51"/>
-<rectangle x1="2.6924" y1="0.4064" x2="4.1402" y2="0.8636" layer="51"/>
-<rectangle x1="2.6924" y1="-0.8636" x2="4.1402" y2="-0.4064" layer="51"/>
-<rectangle x1="2.6924" y1="-2.1336" x2="4.1402" y2="-1.6764" layer="51"/>
-<rectangle x1="-4.1402" y1="1.6764" x2="-2.6924" y2="2.1336" layer="51"/>
-<rectangle x1="-4.1402" y1="0.4064" x2="-2.6924" y2="0.8636" layer="51"/>
-<rectangle x1="-4.1402" y1="-0.8636" x2="-2.6924" y2="-0.4064" layer="51"/>
-<rectangle x1="-4.1402" y1="-2.1336" x2="-2.6924" y2="-1.6764" layer="51"/>
-<circle x="-1.905" y="1.905" radius="0.508" width="0.254" layer="51"/>
-<text x="0" y="-3.048" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<text x="0" y="3.048" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="DIP-8" urn="urn:adsk.eagle:footprint:3645107/1">
-<wire x1="3.4798" y1="5.08" x2="1.016" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="5.08" x2="-2.667" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="-5.08" x2="3.556" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-3.556" y1="5.08" x2="-3.556" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="3.556" y1="-5.08" x2="-3.556" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="3.556" y1="5.08" x2="1.016" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-3.556" y1="5.08" x2="-1.016" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-1.016" y1="5.08" x2="1.016" y2="5.08" width="0.2032" layer="21" curve="180"/>
-<wire x1="-4.3688" y1="3.2512" x2="-3.556" y2="3.2512" width="0" layer="51"/>
-<pad name="4" x="-3.81" y="-3.81" drill="0.8128" diameter="1.778"/>
-<pad name="3" x="-3.81" y="-1.27" drill="0.8128" diameter="1.778"/>
-<pad name="2" x="-3.81" y="1.27" drill="0.8128" diameter="1.778"/>
-<pad name="1" x="-3.81" y="3.81" drill="0.8128" diameter="1.778" shape="square"/>
-<pad name="5" x="3.81" y="-3.81" drill="0.8128" diameter="1.778"/>
-<pad name="6" x="3.81" y="-1.27" drill="0.8128" diameter="1.778"/>
-<pad name="7" x="3.81" y="1.27" drill="0.8128" diameter="1.778"/>
-<pad name="8" x="3.81" y="3.81" drill="0.8128" diameter="1.778"/>
-<circle x="-1.905" y="3.81" radius="0.508" width="0.254" layer="21"/>
-<text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-5.461" size="0.8128" layer="27" font="vector" align="top-center">&gt;VALUE</text>
-<rectangle x1="-4.3688" y1="-4.3688" x2="-3.556" y2="-3.2512" layer="51"/>
-<rectangle x1="-4.3688" y1="-1.8288" x2="-3.556" y2="-0.7112" layer="51"/>
-<rectangle x1="-4.3688" y1="0.7112" x2="-3.556" y2="1.8288" layer="51"/>
-<rectangle x1="-4.3688" y1="3.2512" x2="-3.556" y2="4.3688" layer="51"/>
-<rectangle x1="3.556" y1="-4.3688" x2="4.3688" y2="-3.2512" layer="51"/>
-<rectangle x1="3.556" y1="-1.8288" x2="4.3688" y2="-0.7112" layer="51"/>
-<rectangle x1="3.556" y1="0.7112" x2="4.3688" y2="1.8288" layer="51"/>
-<rectangle x1="3.556" y1="3.2512" x2="4.3688" y2="4.3688" layer="51"/>
-</package>
 <package name="DIP787W45P254L958H533Q8B_DIP-8_ATTINY-X5" urn="urn:adsk.eagle:footprint:3650793/3">
 <description>8-DIP, 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span, 9.5885 X 6.604 X 5.334 mm body
 &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span with body size 9.5885 X 6.604 X 5.334 mm&lt;/p&gt;</description>
@@ -322,21 +260,6 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="SO-8" urn="urn:adsk.eagle:package:2750522/2" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="SO-8"/>
-</packageinstances>
-</package3d>
-<package3d name="DIP-8" urn="urn:adsk.eagle:package:2750521/2" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="DIP-8"/>
-</packageinstances>
-</package3d>
-<package3d name="DIP-8" urn="urn:adsk.eagle:package:3645122/2" type="model">
-<packageinstances>
-<packageinstance name="DIP-8"/>
-</packageinstances>
-</package3d>
 <package3d name="DIP787W45P254L958H533Q8B" urn="urn:adsk.eagle:package:3650792/3" type="model">
 <description>8-DIP, 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span, 9.5885 X 6.604 X 5.334 mm body
 &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span with body size 9.5885 X 6.604 X 5.334 mm&lt;/p&gt;</description>
@@ -383,86 +306,6 @@
 <gate name="G$1" symbol="ATTINYX5" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SO-8" package="SO-8">
-<connects>
-<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
-<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
-<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
-<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
-<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2750522/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20SU-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY85-20SU-ND" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATTINY85-20SU" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATTINY85" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_DIP-8" package="DIP-8">
-<connects>
-<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
-<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
-<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
-<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
-<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2750521/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9986-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="AE9986-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
-<attribute name="MPN" value="  ATTINY85-20PU" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="A 08-LC-TT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATTINY85" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DIP-8_CONNECTOR" package="DIP-8">
-<connects>
-<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
-<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
-<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
-<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
-<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3645122/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="_DIP-8_ATTINY-85" package="DIP787W45P254L958H533Q8B_DIP-8_ATTINY-X5">
 <connects>
 <connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
@@ -479,6 +322,12 @@
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DATASHEET" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589893" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATTINY85-20PU" constant="no"/>
 <attribute name="VALUE" value="ATtiny85" constant="no"/>
 </technology>
 </technologies>
@@ -498,7 +347,21 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:3650803/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589893" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9986-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="AE9986-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
+<attribute name="MPN" value="ATTINY85-20PU" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="A 08-LC-TT" constant="no"/>
+<attribute name="VALUE" value="ATtiny85" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_SO-8_ATTINY-85V" package="SOIC127P798X216-8">
@@ -1071,31 +934,27 @@
 </library>
 <library name="PiB_resistors">
 <packages>
-<package name="RESISTOR-PTH-0207/7" urn="urn:adsk.eagle:footprint:2749844/1">
-<wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
-<wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-3.175" y1="-0.889" x2="-3.175" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-2.921" y1="1.143" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-2.413" y1="1.016" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-2.921" y1="-1.143" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="-2.413" y1="-1.016" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="1.016" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="1.016" x2="-2.413" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="-1.016" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="-1.016" x2="-2.413" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" diameter="1.524"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" diameter="1.524"/>
-<rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
-<rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
-<text x="0" y="0" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<package name="RESAD990W55L630D240B" urn="urn:adsk.eagle:footprint:4254583/1" locally_modified="yes">
+<description>AXIAL Resistor, 9.9 mm pitch, 6.3 mm body length, 2.4 mm body diameter
+&lt;p&gt;AXIAL Resistor package with 9.9 mm pitch, 0.55 mm lead diameter, 6.3 mm body length and 2.4 mm body diameter&lt;/p&gt;</description>
+<wire x1="-3.4" y1="1.3" x2="-3.4" y2="-1.3" width="0.12" layer="21"/>
+<wire x1="-3.4" y1="-1.3" x2="3.4" y2="-1.3" width="0.12" layer="21"/>
+<wire x1="3.4" y1="-1.3" x2="3.4" y2="1.3" width="0.12" layer="21"/>
+<wire x1="3.4" y1="1.3" x2="-3.4" y2="1.3" width="0.12" layer="21"/>
+<wire x1="-3.4" y1="0" x2="-4.021" y2="0" width="0.12" layer="21"/>
+<wire x1="3.4" y1="0" x2="4.021" y2="0" width="0.12" layer="21"/>
+<wire x1="3.4" y1="-1.3" x2="-3.4" y2="-1.3" width="0.12" layer="51"/>
+<wire x1="-3.4" y1="-1.3" x2="-3.4" y2="1.3" width="0.12" layer="51"/>
+<wire x1="-3.4" y1="1.3" x2="3.4" y2="1.3" width="0.12" layer="51"/>
+<wire x1="3.4" y1="1.3" x2="3.4" y2="-1.3" width="0.12" layer="51"/>
+<pad name="1" x="-4.95" y="0" drill="0.75" diameter="1.35"/>
+<pad name="2" x="4.95" y="0" drill="0.75" diameter="1.35"/>
+<text x="0" y="0.2" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.2" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-6" y1="-1.4" x2="6" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="6" y1="-1.4" x2="6" y2="1.4" width="0.127" layer="39"/>
+<wire x1="6" y1="1.4" x2="-6" y2="1.4" width="0.127" layer="39"/>
+<wire x1="-6" y1="1.4" x2="-6" y2="-1.4" width="0.127" layer="39"/>
 </package>
 <package name="RESC1005X35_SMD-0402" urn="urn:adsk.eagle:footprint:2899254/1" locally_modified="yes">
 <description>CHIP, 1 X 0.5 X 0.35 mm body
@@ -1153,9 +1012,11 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="RESISTOR-PTH-0207/7" urn="urn:adsk.eagle:package:2749854/2" type="model">
+<package3d name="RESAD990W55L630D240B" urn="urn:adsk.eagle:package:4254576/1" locally_modified="yes" type="model">
+<description>AXIAL Resistor, 9.9 mm pitch, 6.3 mm body length, 2.4 mm body diameter
+&lt;p&gt;AXIAL Resistor package with 9.9 mm pitch, 0.55 mm lead diameter, 6.3 mm body length and 2.4 mm body diameter&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="RESISTOR-PTH-0207/7"/>
+<packageinstance name="RESAD990W55L630D240B"/>
 </packageinstances>
 </package3d>
 <package3d name="RESC1005X35" urn="urn:adsk.eagle:package:2899165/1" locally_modified="yes" type="model">
@@ -1204,22 +1065,6 @@
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_PTH-0207/7_1/8W-5%" package="RESISTOR-PTH-0207/7">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2749854/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="10K" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SMD-0402_1/16W-5%" package="RESC1005X35_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1280,6 +1125,26 @@
 </technology>
 </technologies>
 </device>
+<device name="_PTH-207/7_1/4W-5%" package="RESAD990W55L630D240B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4254576/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/throughhole/Yageo_LR_CFR_2013.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CFR-25JB-52-10K" constant="no"/>
+<attribute name="DISTPN" value="10KQBK-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="CFR-25JB-52-10K" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -1304,7 +1169,7 @@
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
 <part name="LED" library="PiB_leds" deviceset="LED" device="_PTH-5MM_NO-COLOR"/>
-<part name="R" library="PiB_resistors" deviceset="10KΩ" device="_PTH-0207/7_1/8W-5%" package3d_urn="urn:adsk.eagle:package:2749854/2" value="10K"/>
+<part name="R" library="PiB_resistors" deviceset="10KΩ" device="_PTH-207/7_1/4W-5%" package3d_urn="urn:adsk.eagle:package:4254576/1" value="10K"/>
 <part name="SUPPLY2" library="PiB_power_symbols" deviceset="GND" device=""/>
 </parts>
 <sheets>

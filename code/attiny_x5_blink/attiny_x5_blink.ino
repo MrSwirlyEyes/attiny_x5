@@ -4,10 +4,11 @@
 //  Typical blink sketch.
 
 
-#define led 5
+#define led 0
 
 void setup() {
-  // Initialize ATtinyX5 digital pin 5 as an output.
+  // Initialize ATtinyX5 digital physical pin 5 
+  //	(programming pin 0) as an output.
   pinMode(led, OUTPUT);
 }
 
