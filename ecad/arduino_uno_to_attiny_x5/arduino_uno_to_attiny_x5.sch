@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -168,68 +168,6 @@
 <libraries>
 <library name="PiB_ic_microcontrollers">
 <packages>
-<package name="SO-8" urn="urn:adsk.eagle:footprint:3645108/1">
-<smd name="1" x="-3.7084" y="1.905" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="2" x="-3.7084" y="0.635" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="3" x="-3.7084" y="-0.635" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="4" x="-3.7084" y="-1.905" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="5" x="3.7084" y="-1.905" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="6" x="3.7084" y="-0.635" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="7" x="3.7084" y="0.635" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<smd name="8" x="3.7084" y="1.905" dx="1.5494" dy="0.5334" layer="1" roundness="50"/>
-<wire x1="2.6924" y1="-2.667" x2="2.6924" y2="2.667" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="-2.667" x2="2.6924" y2="-2.667" width="0.1524" layer="21"/>
-<wire x1="2.6924" y1="2.667" x2="0.6858" y2="2.667" width="0.1524" layer="21"/>
-<wire x1="-0.6858" y1="2.667" x2="-2.6924" y2="2.667" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="2.667" x2="-2.6924" y2="-2.667" width="0.1524" layer="21"/>
-<wire x1="0.6858" y1="2.667" x2="-0.6858" y2="2.667" width="0.1524" layer="21" curve="-180"/>
-<wire x1="0.6858" y1="2.667" x2="-0.6858" y2="2.667" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.699" y1="-2.794" x2="4.699" y2="-2.794" width="0.127" layer="39"/>
-<wire x1="4.699" y1="-2.794" x2="4.699" y2="2.794" width="0.127" layer="39"/>
-<wire x1="4.699" y1="2.794" x2="-4.699" y2="2.794" width="0.127" layer="39"/>
-<wire x1="-4.699" y1="2.794" x2="-4.699" y2="-2.794" width="0.127" layer="39"/>
-<rectangle x1="2.6924" y1="1.6764" x2="4.1402" y2="2.1336" layer="51"/>
-<rectangle x1="2.6924" y1="0.4064" x2="4.1402" y2="0.8636" layer="51"/>
-<rectangle x1="2.6924" y1="-0.8636" x2="4.1402" y2="-0.4064" layer="51"/>
-<rectangle x1="2.6924" y1="-2.1336" x2="4.1402" y2="-1.6764" layer="51"/>
-<rectangle x1="-4.1402" y1="1.6764" x2="-2.6924" y2="2.1336" layer="51"/>
-<rectangle x1="-4.1402" y1="0.4064" x2="-2.6924" y2="0.8636" layer="51"/>
-<rectangle x1="-4.1402" y1="-0.8636" x2="-2.6924" y2="-0.4064" layer="51"/>
-<rectangle x1="-4.1402" y1="-2.1336" x2="-2.6924" y2="-1.6764" layer="51"/>
-<circle x="-1.905" y="1.905" radius="0.508" width="0.254" layer="51"/>
-<text x="0" y="-3.048" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<text x="0" y="3.048" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="DIP-8" urn="urn:adsk.eagle:footprint:3645107/1">
-<wire x1="3.4798" y1="5.08" x2="1.016" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="5.08" x2="-2.667" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="-5.08" x2="3.556" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-3.556" y1="5.08" x2="-3.556" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="3.556" y1="-5.08" x2="-3.556" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="3.556" y1="5.08" x2="1.016" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-3.556" y1="5.08" x2="-1.016" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-1.016" y1="5.08" x2="1.016" y2="5.08" width="0.2032" layer="21" curve="180"/>
-<wire x1="-4.3688" y1="3.2512" x2="-3.556" y2="3.2512" width="0" layer="51"/>
-<pad name="4" x="-3.81" y="-3.81" drill="0.8128" diameter="1.778"/>
-<pad name="3" x="-3.81" y="-1.27" drill="0.8128" diameter="1.778"/>
-<pad name="2" x="-3.81" y="1.27" drill="0.8128" diameter="1.778"/>
-<pad name="1" x="-3.81" y="3.81" drill="0.8128" diameter="1.778" shape="square"/>
-<pad name="5" x="3.81" y="-3.81" drill="0.8128" diameter="1.778"/>
-<pad name="6" x="3.81" y="-1.27" drill="0.8128" diameter="1.778"/>
-<pad name="7" x="3.81" y="1.27" drill="0.8128" diameter="1.778"/>
-<pad name="8" x="3.81" y="3.81" drill="0.8128" diameter="1.778"/>
-<circle x="-1.905" y="3.81" radius="0.508" width="0.254" layer="21"/>
-<text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-5.461" size="0.8128" layer="27" font="vector" align="top-center">&gt;VALUE</text>
-<rectangle x1="-4.3688" y1="-4.3688" x2="-3.556" y2="-3.2512" layer="51"/>
-<rectangle x1="-4.3688" y1="-1.8288" x2="-3.556" y2="-0.7112" layer="51"/>
-<rectangle x1="-4.3688" y1="0.7112" x2="-3.556" y2="1.8288" layer="51"/>
-<rectangle x1="-4.3688" y1="3.2512" x2="-3.556" y2="4.3688" layer="51"/>
-<rectangle x1="3.556" y1="-4.3688" x2="4.3688" y2="-3.2512" layer="51"/>
-<rectangle x1="3.556" y1="-1.8288" x2="4.3688" y2="-0.7112" layer="51"/>
-<rectangle x1="3.556" y1="0.7112" x2="4.3688" y2="1.8288" layer="51"/>
-<rectangle x1="3.556" y1="3.2512" x2="4.3688" y2="4.3688" layer="51"/>
-</package>
 <package name="DIP787W45P254L958H533Q8B_DIP-8_ATTINY-X5" urn="urn:adsk.eagle:footprint:3650793/3">
 <description>8-DIP, 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span, 9.5885 X 6.604 X 5.334 mm body
 &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span with body size 9.5885 X 6.604 X 5.334 mm&lt;/p&gt;</description>
@@ -254,39 +192,6 @@
 <pad name="8" x="3.937" y="3.81" drill="0.723" diameter="1.323"/>
 <text x="0" y="5.8605" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.715" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="DIP787W45P254L831H533Q8B_DIP-8_CONNECTOR" urn="urn:adsk.eagle:footprint:3650804/1" locally_modified="yes">
-<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span, 8.3185 X 6.604 X 5.334 mm body
-&lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span with body size 8.3185 X 6.604 X 5.334 mm&lt;/p&gt;</description>
-<circle x="-4.0773" y="5.9755" radius="0.25" width="0" layer="21"/>
-<wire x1="3.556" y1="-5.08" x2="-3.556" y2="-5.08" width="0.12" layer="51"/>
-<wire x1="-3.556" y1="-5.08" x2="-3.556" y2="5.08" width="0.12" layer="51"/>
-<wire x1="-3.556" y1="5.08" x2="-1" y2="5.08" width="0.12" layer="51"/>
-<wire x1="1" y1="5.08" x2="3.556" y2="5.08" width="0.12" layer="51"/>
-<wire x1="3.556" y1="5.08" x2="3.556" y2="-5.08" width="0.12" layer="51"/>
-<pad name="1" x="-3.937" y="3.81" drill="0.723" diameter="1.446"/>
-<pad name="2" x="-3.937" y="1.27" drill="0.723" diameter="1.446"/>
-<pad name="3" x="-3.937" y="-1.27" drill="0.723" diameter="1.446"/>
-<pad name="4" x="-3.937" y="-3.81" drill="0.723" diameter="1.446"/>
-<pad name="5" x="3.937" y="-3.81" drill="0.723" diameter="1.446"/>
-<pad name="6" x="3.937" y="-1.27" drill="0.723" diameter="1.446"/>
-<pad name="7" x="3.937" y="1.27" drill="0.723" diameter="1.446"/>
-<pad name="8" x="3.937" y="3.81" drill="0.723" diameter="1.446"/>
-<text x="0" y="5.8605" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.715" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-5.08" y1="5.08" x2="-1" y2="5.08" width="0.127" layer="21"/>
-<wire x1="1" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
-<wire x1="0" y1="4" x2="-1" y2="5.08" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="4" x2="1" y2="5.08" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="4" x2="-1" y2="5.08" width="0.127" layer="51" curve="-90"/>
-<wire x1="0" y1="4" x2="1" y2="5.08" width="0.127" layer="51" curve="90"/>
-<wire x1="-5.3" y1="-5.3" x2="5.3" y2="-5.3" width="0.127" layer="39"/>
-<wire x1="5.3" y1="-5.3" x2="5.3" y2="5.3" width="0.127" layer="39"/>
-<wire x1="5.3" y1="5.3" x2="-5.3" y2="5.3" width="0.127" layer="39"/>
-<wire x1="-5.3" y1="5.3" x2="-5.3" y2="-5.3" width="0.127" layer="39"/>
 </package>
 <package name="SOIC127P798X216-8" urn="urn:adsk.eagle:footprint:3726849/1" locally_modified="yes">
 <description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
@@ -320,23 +225,41 @@
 <wire x1="-5" y1="2.8" x2="-5" y2="-2.8" width="0.127" layer="39"/>
 <wire x1="-2.7" y1="-2.675" x2="-2.7" y2="2.675" width="0.12" layer="51"/>
 </package>
+<package name="DIP787W45P254L831H533Q8B_DIP-8_CONNECTOR" urn="urn:adsk.eagle:footprint:3650804/1" locally_modified="yes">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span, 8.3185 X 6.604 X 5.334 mm body
+&lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span with body size 8.3185 X 6.604 X 5.334 mm&lt;/p&gt;</description>
+<circle x="-4.0773" y="5.9755" radius="0.25" width="0" layer="21"/>
+<wire x1="3.556" y1="-5.08" x2="-3.556" y2="-5.08" width="0.12" layer="51"/>
+<wire x1="-3.556" y1="-5.08" x2="-3.556" y2="5.08" width="0.12" layer="51"/>
+<wire x1="-3.556" y1="5.08" x2="-1" y2="5.08" width="0.12" layer="51"/>
+<wire x1="1" y1="5.08" x2="3.556" y2="5.08" width="0.12" layer="51"/>
+<wire x1="3.556" y1="5.08" x2="3.556" y2="-5.08" width="0.12" layer="51"/>
+<pad name="1" x="-3.937" y="3.81" drill="0.723" diameter="1.446"/>
+<pad name="2" x="-3.937" y="1.27" drill="0.723" diameter="1.446"/>
+<pad name="3" x="-3.937" y="-1.27" drill="0.723" diameter="1.446"/>
+<pad name="4" x="-3.937" y="-3.81" drill="0.723" diameter="1.446"/>
+<pad name="5" x="3.937" y="-3.81" drill="0.723" diameter="1.446"/>
+<pad name="6" x="3.937" y="-1.27" drill="0.723" diameter="1.446"/>
+<pad name="7" x="3.937" y="1.27" drill="0.723" diameter="1.446"/>
+<pad name="8" x="3.937" y="3.81" drill="0.723" diameter="1.446"/>
+<text x="0" y="5.4" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.4" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-5.08" y1="5.08" x2="-1" y2="5.08" width="0.127" layer="21"/>
+<wire x1="1" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="0" y1="4" x2="-1" y2="5.08" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="4" x2="1" y2="5.08" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="4" x2="-1" y2="5.08" width="0.127" layer="51" curve="-90"/>
+<wire x1="0" y1="4" x2="1" y2="5.08" width="0.127" layer="51" curve="90"/>
+<wire x1="-5.3" y1="-5.3" x2="5.3" y2="-5.3" width="0.127" layer="39"/>
+<wire x1="5.3" y1="-5.3" x2="5.3" y2="5.3" width="0.127" layer="39"/>
+<wire x1="5.3" y1="5.3" x2="-5.3" y2="5.3" width="0.127" layer="39"/>
+<wire x1="-5.3" y1="5.3" x2="-5.3" y2="-5.3" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="SO-8" urn="urn:adsk.eagle:package:2750522/2" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="SO-8"/>
-</packageinstances>
-</package3d>
-<package3d name="DIP-8" urn="urn:adsk.eagle:package:2750521/2" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="DIP-8"/>
-</packageinstances>
-</package3d>
-<package3d name="DIP-8" urn="urn:adsk.eagle:package:3645122/2" type="model">
-<packageinstances>
-<packageinstance name="DIP-8"/>
-</packageinstances>
-</package3d>
 <package3d name="DIP787W45P254L958H533Q8B" urn="urn:adsk.eagle:package:3650792/3" type="model">
 <description>8-DIP, 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span, 9.5885 X 6.604 X 5.334 mm body
 &lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span with body size 9.5885 X 6.604 X 5.334 mm&lt;/p&gt;</description>
@@ -344,18 +267,18 @@
 <packageinstance name="DIP787W45P254L958H533Q8B_DIP-8_ATTINY-X5"/>
 </packageinstances>
 </package3d>
-<package3d name="DIP787W45P254L831H533Q8B" urn="urn:adsk.eagle:package:3650803/2" locally_modified="yes" type="model">
-<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span, 8.3185 X 6.604 X 5.334 mm body
-&lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span with body size 8.3185 X 6.604 X 5.334 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="DIP787W45P254L831H533Q8B_DIP-8_CONNECTOR"/>
-</packageinstances>
-</package3d>
 <package3d name="SOIC127P798X216-8" urn="urn:adsk.eagle:package:3726844/1" locally_modified="yes" type="model">
 <description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
 &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC127P798X216-8"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP787W45P254L831H533Q8B" urn="urn:adsk.eagle:package:3650803/2" locally_modified="yes" type="model">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span, 8.3185 X 6.604 X 5.334 mm body
+&lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.874 mm (0.31 in) span with body size 8.3185 X 6.604 X 5.334 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP787W45P254L831H533Q8B_DIP-8_CONNECTOR"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -383,86 +306,6 @@
 <gate name="G$1" symbol="ATTINYX5" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SO-8" package="SO-8">
-<connects>
-<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
-<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
-<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
-<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
-<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2750522/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20SU-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY85-20SU-ND" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATTINY85-20SU" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATTINY85" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_DIP-8" package="DIP-8">
-<connects>
-<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
-<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
-<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
-<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
-<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2750521/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9986-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="AE9986-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
-<attribute name="MPN" value="  ATTINY85-20PU" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="A 08-LC-TT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATTINY85" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DIP-8_CONNECTOR" package="DIP-8">
-<connects>
-<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
-<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
-<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
-<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
-<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3645122/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="_DIP-8_ATTINY-85" package="DIP787W45P254L958H533Q8B_DIP-8_ATTINY-X5">
 <connects>
 <connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
@@ -479,6 +322,12 @@
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DATASHEET" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589893" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATTINY85-20PU" constant="no"/>
 <attribute name="VALUE" value="ATtiny85" constant="no"/>
 </technology>
 </technologies>
@@ -498,7 +347,21 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:3650803/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589893" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9986-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="AE9986-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
+<attribute name="MPN" value="ATTINY85-20PU" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="A 08-LC-TT" constant="no"/>
+<attribute name="VALUE" value="ATtiny85" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_SO-8_ATTINY-85V" package="SOIC127P798X216-8">
@@ -648,12 +511,12 @@
 <pin name="A5" x="-17.78" y="-7.62" visible="pin" length="short"/>
 <pin name="IOREF" x="-17.78" y="25.4" visible="pin" length="short"/>
 <pin name="!RESET!@1" x="-17.78" y="22.86" visible="pin" length="short"/>
-<pin name="VIN" x="-17.78" y="15.24" visible="pin" length="short"/>
-<pin name="5V" x="-17.78" y="20.32" visible="pin" length="short"/>
-<pin name="3.3V" x="-17.78" y="17.78" visible="pin" length="short"/>
+<pin name="VIN" x="-17.78" y="10.16" visible="pin" length="short"/>
+<pin name="5V" x="-17.78" y="17.78" visible="pin" length="short"/>
+<pin name="3.3V" x="-17.78" y="20.32" visible="pin" length="short"/>
 <pin name="AREF" x="17.78" y="20.32" visible="pin" length="short" rot="R180"/>
-<pin name="GND@0" x="-17.78" y="12.7" visible="pin" length="short"/>
-<pin name="GND@1" x="-17.78" y="10.16" visible="pin" length="short"/>
+<pin name="GND@0" x="-17.78" y="15.24" visible="pin" length="short"/>
+<pin name="GND@1" x="-17.78" y="12.7" visible="pin" length="short"/>
 <pin name="GND@2" x="17.78" y="17.78" visible="pin" length="short" rot="R180"/>
 <pin name="VCC" x="-17.78" y="-12.7" visible="pin" length="short"/>
 <pin name="MISO" x="-17.78" y="-15.24" visible="pin" length="short"/>
@@ -682,7 +545,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ARDUINO_UNO_R3" prefix="ARDUINO" uservalue="yes">
+<deviceset name="ARDUINO_UNO_R3" prefix="MCU" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ARDUINO_UNO_R3" x="0" y="0"/>
 </gates>
@@ -797,25 +660,6 @@
 </library>
 <library name="PiB_capacitors">
 <packages>
-<package name="CAPMP3216X180_SMD_CAP-TANT-1206" urn="urn:adsk.eagle:footprint:3037639/1" locally_modified="yes">
-<description>MOLDED BODY, 3.2 X 1.65 X 1.8 mm body
-&lt;p&gt;MOLDED BODY package with body size 3.2 X 1.65 X 1.8 mm&lt;/p&gt;</description>
-<wire x1="1.7" y1="0.9786" x2="-2.5217" y2="0.9786" width="0.12" layer="21"/>
-<wire x1="-2.5217" y1="0.9786" x2="-2.5217" y2="-0.9786" width="0.12" layer="21"/>
-<wire x1="-2.5217" y1="-0.9786" x2="1.7" y2="-0.9786" width="0.12" layer="21"/>
-<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
-<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
-<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
-<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
-<smd name="A" x="-1.4144" y="0" dx="1.5864" dy="1.3291" layer="1"/>
-<smd name="K" x="1.4144" y="0" dx="1.5864" dy="1.3291" layer="1"/>
-<text x="0" y="1.3" size="0.5" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.3" size="0.5" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-2.7" y1="-1.1" x2="2.7" y2="-1.1" width="0.127" layer="39"/>
-<wire x1="2.7" y1="-1.1" x2="2.7" y2="1.1" width="0.127" layer="39"/>
-<wire x1="2.7" y1="1.1" x2="-2.7" y2="1.1" width="0.127" layer="39"/>
-<wire x1="-2.7" y1="1.1" x2="-2.7" y2="-1.1" width="0.127" layer="39"/>
-</package>
 <package name="_AE_PTH-DIA5-LS2-H5" urn="urn:adsk.eagle:footprint:3661711/1" locally_modified="yes">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
@@ -835,18 +679,38 @@
 <text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <circle x="0" y="0" radius="2.7658625" width="0.127" layer="39"/>
 </package>
+<package name="CAPMP3216X180_SMD_CAP-TANT-1206" urn="urn:adsk.eagle:footprint:3037639/1" locally_modified="yes">
+<description>MOLDED BODY, 3.2 X 1.65 X 1.8 mm body
+&lt;p&gt;MOLDED BODY package with body size 3.2 X 1.65 X 1.8 mm&lt;/p&gt;</description>
+<wire x1="1.7" y1="0.9786" x2="-2.5217" y2="0.9786" width="0.12" layer="21"/>
+<wire x1="-2.5217" y1="0.9786" x2="-2.5217" y2="-0.9786" width="0.12" layer="21"/>
+<wire x1="-2.5217" y1="-0.9786" x2="1.7" y2="-0.9786" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
+<smd name="A" x="-1.4144" y="0" dx="1.5864" dy="1.3291" layer="1"/>
+<smd name="K" x="1.4144" y="0" dx="1.5864" dy="1.3291" layer="1"/>
+<text x="0" y="1.3" size="0.5" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.3" size="0.5" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-2.7" y1="-1.1" x2="2.7" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="2.7" y1="-1.1" x2="2.7" y2="1.1" width="0.127" layer="39"/>
+<wire x1="2.7" y1="1.1" x2="-2.7" y2="1.1" width="0.127" layer="39"/>
+<wire x1="-2.7" y1="1.1" x2="-2.7" y2="-1.1" width="0.127" layer="39"/>
+<circle x="-3" y="0" radius="0.15" width="0" layer="21"/>
+</package>
 </packages>
 <packages3d>
+<package3d name="_AE_PTH-DIA5-LS2-H5" urn="urn:adsk.eagle:package:3661729/2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="_AE_PTH-DIA5-LS2-H5"/>
+</packageinstances>
+</package3d>
 <package3d name="CAPMP3216X180" urn="urn:adsk.eagle:package:3037631/1" locally_modified="yes" type="model">
 <description>MOLDED BODY, 3.2 X 1.65 X 1.8 mm body
 &lt;p&gt;MOLDED BODY package with body size 3.2 X 1.65 X 1.8 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPMP3216X180_SMD_CAP-TANT-1206"/>
-</packageinstances>
-</package3d>
-<package3d name="_AE_PTH-DIA5-LS2-H5" urn="urn:adsk.eagle:package:3661729/2" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="_AE_PTH-DIA5-LS2-H5"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -944,11 +808,11 @@
 <instance part="MCU2" gate="G$1" x="116.84" y="38.1"/>
 <instance part="MCU1" gate="G$1" x="38.1" y="35.56"/>
 <instance part="SUPPLY1" gate="GND" x="73.66" y="20.32"/>
-<instance part="SUPPLY2" gate="GND" x="15.24" y="40.64"/>
+<instance part="SUPPLY2" gate="GND" x="15.24" y="43.18"/>
 <instance part="SUPPLY3" gate="3.3V" x="15.24" y="60.96"/>
 <instance part="SUPPLY4" gate="3.3V" x="73.66" y="53.34"/>
 <instance part="C1" gate="G$1" x="7.62" y="53.34"/>
-<instance part="SUPPLY5" gate="GND" x="7.62" y="40.64"/>
+<instance part="SUPPLY5" gate="GND" x="7.62" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -962,21 +826,21 @@
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="15.24" y1="43.18" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="MCU1" gate="G$1" pin="GND@1"/>
-<wire x1="15.24" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="K"/>
-<wire x1="7.62" y1="43.18" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="45.72" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="MCU1" gate="G$1" pin="3.3V"/>
-<wire x1="20.32" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="53.34" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="55.88" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="3.3V" pin="3.3V"/>
 </segment>
 <segment>
